@@ -15,7 +15,7 @@ $(Zpevniky):
 	snakemake -p -s Snakefile.$@ --cores all
 
 clean:
-	rm -fr cache/*
+	rm -fr cache/* .snakemake
 	$(MAKE) -C output clean
 
 surge: $(Zpevniky) singles

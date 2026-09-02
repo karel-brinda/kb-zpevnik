@@ -31,4 +31,5 @@ index.html: $(ZPEVNIKY_T)
 	p=$$(pwd) && cd .. && ./vygeneruj_index_html.py > $$p/$@
 
 clean:
-	rm -f *.tablet.pdf index.html
+	rm -f *.pdf index.html Snakefile.sablona
+	rm -fr *_singles
