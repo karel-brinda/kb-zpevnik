@@ -5,22 +5,22 @@ Pravidla pro organizaci souborů, pojmenování a sazbu písní v tomto zpěvní
 ## Jak je repozitář uspořádán
 
 * `songs/` - texty a akordy písní rozdělené do 3 kategorií podle jazyka:
-  * `01_english` - anglické písně
-  * `02_french_spanish` - francouzské, španělské a ostatní románské/cizojazyčné písně (viz níže)
+  * `01_french` - francouzské, španělské a ostatní románské/cizojazyčné písně (viz níže)
+  * `02_english` - anglické písně
   * `03_czech` - české a slovenské písně
 * `Snakefile.*` - soubory definující jednotlivé zpěvníky
 * `tpcb/` - společná sazební logika, LaTeX šablony a generování rejstříků
 * `output/` - výstupní soubory
 
 Jazyk se určuje podle skutečného jazyka textu písně (ne podle národnosti interpreta) - např. anglická
-verze písně od neanglického interpreta patří do `01_english`. Písně v jazyce, který nemá vlastní kategorii
-(např. ruština, italština, portugalština), se řadí do `02_french_spanish` jako obecná kategorie
+verze písně od neanglického interpreta patří do `02_english`. Písně v jazyce, který nemá vlastní kategorii
+(např. ruština, italština, portugalština), se řadí do `01_french` jako obecná kategorie
 "ostatní cizojazyčné".
 
 ## Jak pojmenovat a připravit novou píseň
 
 1. **Pojmenování souboru a zařazení**
-      * Vzor: `Cele_Jmeno_Interpreta____Jmeno_pisne.tex`, umístěný do `songs/01_english/`, `songs/02_french_spanish/`
+      * Vzor: `Cele_Jmeno_Interpreta____Jmeno_pisne.tex`, umístěný do `songs/01_french/`, `songs/02_english/`
         nebo `songs/03_czech/` podle jazyka textu.
       * Jestliže se jiná píseň od interpreta ve zpěvníku už vyskytuje, ověřte, že je jeho jméno v přesně stejné formě.
       * V případě nejistoty si ověřte křestní jméno nebo pravopis na Google.
