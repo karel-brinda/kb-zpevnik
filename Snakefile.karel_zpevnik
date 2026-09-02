@@ -12,6 +12,7 @@ options = [
 
 songs = [
     "songs/01_english/Blue_Oyster_Cult____Dont_fear_the_reaper.tex",
+    "songs/01_english/Bob_Dylan____All_along_the_watchtower.tex",
     "songs/01_english/Bobby_McFerrin____Dont_Worry_Be_Happy.tex",
     "songs/01_english/Boney_M____Sunny.tex",
     "songs/01_english/Box_Tops____Letter.tex",
@@ -28,6 +29,7 @@ songs = [
     "songs/01_english/George_Gershwin____Summertime.tex",
     "songs/01_english/Israel_Kamakawiwoole____Somewhere_over_the_rainbow.tex",
     "songs/01_english/Jefferson_Airplane____Somebody_to_love.tex",
+    "songs/01_english/Joe_Walsh____Lifes_been_good.tex",
     "songs/01_english/John_Lennon____Imagine.tex",
     "songs/01_english/Leonard_Cohen____Hallelujah.tex",
     "songs/01_english/Limp_Bizkit____Behind_blue_eyes.tex",
