@@ -40,10 +40,11 @@ verze písně od neanglického interpreta patří do `01_english`. Písně v jaz
       * Mollové akordy zapisujte vždy s příponou `mi`, nikdy anglickým `m`: `Ami`, `Dmi7`, `Emi`, `Gmi` apod.
         V rámci jedné písně nemíchejte `Am`/`Ami` styl - buď důsledně jedno, nebo druhé (preferovaně `Ami`).
       * Před dokončením zkontrolujte přes `grep -oE '<[A-Za-z#0-9/]+>' soubor.tex | sort -u`, že se ve stejné písni nevyskytují ekvivalentní zápisy stejného akordu v různých stylech (např. `Am` i `Ami`, nebo `B` i `Bb`).
-4. **Pokud píseň přetéká** na druhou stránku, postupujte následovně:
+      * Akord neopakujte, pokud je jeho platnost jasná z kontextu (tj. dokud nedojde ke změně akordu, další značku nepište) - značte jen místa, kde se akord skutečně mění.
+4. **Cílem je, aby se píseň vešla na jednu stránku A4.** Pokud přetéká na druhou stránku, postupujte následovně:
       * Pokud přetéká jen o několik řádků, zkuste ji zkrátit nebo přeskládat tak, aby se vešla na jednu A4 celou.
-      * Sekvenci akordů, které se v průběhu písně nebo v jejích částech opakuje v přesně stejném sledu, stačí napsat jen jednou (pomocí prázdného `\zr\kr` pro opakování stejného refrénu).
-      * Řádky od druhé sloky dále pospojovat po dvou nebo po celých slokách.
+      * Sekvenci akordů, které se v průběhu písně nebo v jejích částech opakuje v přesně stejném sledu, stačí napsat jen jednou (pomocí prázdného `\zr\kr` pro opakování stejného refrénu). Totéž platí i pro sloky: pokud další sloka jede na naprosto stejnou akordovou sekvenci jako sloka předchozí, akordy u ní znovu nevypisujte - napište jen holý text. Akordy uveďte znovu jen tam, kde se od dosud zavedeného sledu skutečně odchylují (a jen pro tu odchylující se část).
+      * Řádky od druhé sloky dále (typicky po dvou) spojujte do jedné řádky - stejný postup lze použít preventivně i na celou píseň, pokud je to potřeba k vejití na jednu stránku, ne až jako záchranu při přetečení.
       * Zkrátit opakovaný text pomocí repetic `/: ... :/` nebo tří teček, refrény vynechat.
       * Vynechat od druhé sloky dále výplně jako u Zítra ráno v pět nebo u Milionáře od Nohavici.
       * Když se vtěsnat na jednu stránku nepovede, využijte dobře prostor obou stránek. Je možno i ponechat na výběr dvě verze (viz Veličenstvo Kat).
