@@ -16,7 +16,7 @@ $(Zpevniky):
 
 clean:
 	rm -fr cache/*
-	$(MAKE) -C output
+	$(MAKE) -C output clean
 
 surge: $(Zpevniky) singles
 	$(MAKE) -C output surge
