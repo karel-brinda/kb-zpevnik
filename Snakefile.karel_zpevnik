@@ -23,16 +23,19 @@ songs = [
     "songs/01_english/Dire_Straits____Sultans_of_Swing.tex",
     "songs/01_english/Dolly_Parton____Jolene.tex",
     "songs/01_english/Doors____People_Are_Strange.tex",
+    "songs/01_english/Dusty_Springfield____Son_of_a_preacher_man.tex",
     "songs/01_english/Eagles____Hotel_California.tex",
     "songs/01_english/Eric_Clapton____Layla.tex",
     "songs/01_english/Fools_Garden____Lemon_Tree.tex",
     "songs/01_english/George_Gershwin____Summertime.tex",
+    "songs/01_english/Highwaymen____Highwayman.tex",
     "songs/01_english/Israel_Kamakawiwoole____Somewhere_over_the_rainbow.tex",
     "songs/01_english/Jefferson_Airplane____Somebody_to_love.tex",
     "songs/01_english/Joe_Walsh____Lifes_been_good.tex",
     "songs/01_english/John_Lennon____Imagine.tex",
     "songs/01_english/Leonard_Cohen____Hallelujah.tex",
     "songs/01_english/Limp_Bizkit____Behind_blue_eyes.tex",
+    "songs/01_english/Longest_Johns____Wellerman.tex",
     "songs/01_english/Longest_Johns____Wellerman____2pages.tex",
     "songs/01_english/Lou_Reed____Perfect_day.tex",
     "songs/01_english/Lynyrd_Skynyrd____Sweet_home_Alabama.tex",
@@ -44,6 +47,7 @@ songs = [
     "songs/01_english/Pink_Floyd____Comfortably_Numb.tex",
     "songs/01_english/Pink_Floyd____Money.tex",
     "songs/01_english/Pink_Floyd____Mother.tex",
+    "songs/01_english/Pink_Floyd____Run_like_hell.tex",
     "songs/01_english/Pink_Floyd____Shine_on_your_crazy_diamond.tex",
     "songs/01_english/Pink_Floyd____Time.tex",
     "songs/01_english/Pink_Floyd____Wish_you_were_here.tex",
@@ -54,7 +58,9 @@ songs = [
     "songs/01_english/Rolling_Stones____Angie.tex",
     "songs/01_english/Rolling_Stones____Ruby_Tuesday.tex",
     "songs/01_english/Rolling_Stones____Satisfaction.tex",
+    "songs/01_english/Rose____Apt.tex",
     "songs/01_english/Scott_Mckenzie____San_Francisco.tex",
+    "songs/01_english/Taylor_Swift____Shake_It_Off.tex",
     "songs/01_english/Tokens____Lion_Sleeps_Tonight.tex",
     "songs/01_english/neznámý____Scarborough_Fair.tex",
     "songs/01_english/neznámý____What_Shall_We_Do_With_a_Drunken_Sailor.tex",
@@ -117,9 +123,7 @@ songs = [
     "songs/03_czech/Zuzana_Navarová____Já_s_tebou_žít_nebudu.tex",
     "songs/03_czech/neznámý____Balada_o_princezně_a_o_hradu.tex",
     "songs/03_czech/Žalman____Ho_Ho_Watanay.tex",
-
     # ---- unused songs (kept for reference; not included in this songbook) ----
-
 #   ("songs/01_english/4_Non_Blondes____Whats_Up.tex", 0),
 #   ("songs/01_english/Afric_Simone____Hafanana.tex", 0),
 #   ("songs/01_english/Alanis_Morissette____Hand_in_my_pocket.tex", 0),
@@ -473,7 +477,6 @@ songs = [
 #   ("songs/03_czech/Žlutý_pes____Modrá.tex", 0),
 #   ("songs/03_czech/Žlutý_pes____Náruživá.tex", 0),
 #   ("songs/03_czech/Žlutý_pes____Sametová.tex", 0),
-
 ]
 
 
