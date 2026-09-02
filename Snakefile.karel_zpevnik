@@ -56,6 +56,8 @@ songs = [
     "songs/01_english/neznámý____Scarborough_Fair.tex",
     "songs/01_english/neznámý____What_Shall_We_Do_With_a_Drunken_Sailor.tex",
     "songs/02_french_spanish/Georges_Brassens____Fernande.tex",
+    "songs/02_french_spanish/Georges_Brassens____Le_pornographe.tex",
+    "songs/02_french_spanish/Georges_Brassens____Le_temps_ne_fait_rien_à_laffaire.tex",
     "songs/02_french_spanish/Gerard_Lenorman____La_Ballade.tex",
     "songs/02_french_spanish/Las_Ketchup____Aserejé.tex",
     "songs/02_french_spanish/Les_Enfantastiques____La_vie_cest_comme_un_jardin.tex",
