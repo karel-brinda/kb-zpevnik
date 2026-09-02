@@ -7,7 +7,7 @@
 
 Zpevniky = $(patsubst Snakefile.%,%,$(wildcard Snakefile.*))
 
-.PHONY:	all clean cleanall orizni surge singles $(Zpevniky)
+.PHONY:	all clean cleanall orizni surge singles $(Zpevniky) view
 
 all:	$(Zpevniky)
 
@@ -23,3 +23,6 @@ surge: $(Zpevniky) singles
 
 singles:
 	TRAVIS_BRANCH=surge snakemake -p -s Snakefile.AllSongs --cores all
+
+view:
+	open output/karel_zpevnik.pdf

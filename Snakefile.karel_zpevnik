@@ -2,7 +2,7 @@
 
 # left_page_head="Zpěvník písní táborových a jiných"
 # right_page_head="www.technicka-prestavka.cz"
-chordbook = "2karel"
+chordbook = "karel_zpevnik"
 
 options = [
     "SKIPCHECK",
