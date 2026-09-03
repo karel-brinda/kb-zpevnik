@@ -16,7 +16,7 @@ def cache_dir():
 
 
 def cb_pdf():
-    return os.path.join("output", "{}.pdf".format(chordbook))
+    return "{}.pdf".format(chordbook)
 
 
 def cb_tex():
@@ -36,7 +36,7 @@ def sc_tex(song):
 
 
 def sc_pdf(song):
-    return os.path.join("output", chordbook + "_singles", "{}.pdf".format(song))
+    return os.path.join(chordbook + "_singles", "{}.pdf".format(song))
 
 
 def prepare_outputs():
@@ -153,8 +153,8 @@ def prepare_chordbook_run(output):
 
 
 def main_pdf_run(input, output):
-    # Výstup je nyní v adresáři output. Pokud existuje stará verze, smažeme
-    # ji, aby nemátla.
+    # Pokud existuje starý build artefakt s podtržítkem na začátku, smažeme
+    # ho, aby nemátl.
     if os.path.isfile("_{}.pdf".format(chordbook)):
         os.remove("_{}.pdf".format(chordbook))
 

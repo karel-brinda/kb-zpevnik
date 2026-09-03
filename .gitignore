@@ -1,5 +1,6 @@
 *_test
 *.html
+!/index.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -62,6 +63,8 @@ target/
 
 ## Chordbook cache files
 *.pdf
+*_singles
+Snakefile.sablona
 !tp-zpevnik-covers/*.pdf
 *.cache
 cache.*

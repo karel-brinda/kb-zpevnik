@@ -10,7 +10,7 @@ Pravidla pro organizaci souborů, pojmenování a sazbu písní v tomto zpěvní
   * `03_czech` - české a slovenské písně
 * `Snakefile.*` - soubory definující jednotlivé zpěvníky
 * `tpcb/` - společná sazební logika, LaTeX šablony a generování rejstříků
-* `output/` - výstupní soubory
+* výstupní PDF (`kb_zpevnik.pdf`) a jednotlivé písně (`kb_zpevnik_singles/`) se generují přímo do kořenového adresáře
 
 Jazyk se určuje podle skutečného jazyka textu písně (ne podle národnosti interpreta) - např. anglická
 verze písně od neanglického interpreta patří do `02_english`. Písně v jazyce, který nemá vlastní kategorii
@@ -62,7 +62,7 @@ verze písně od neanglického interpreta patří do `02_english`. Písně v jaz
 
 ## Jak zařadit/vyřadit píseň ve zpěvníku
 
-* V `Snakefile.karel_zpevnik` jsou aktivní písně v `songs = [...]` jako obyčejné řetězce (transpozice 0) nebo dvojice `("cesta", N)` (transpozice o N půltónů).
+* V `Snakefile.kb_zpevnik` jsou aktivní písně v `songs = [...]` jako obyčejné řetězce (transpozice 0) nebo dvojice `("cesta", N)` (transpozice o N půltónů).
 * Neaktivní/nepoužité písně se drží zakomentované pod aktivním seznamem (`# ---- unused songs ... ----`) ve formě `#   ("songs/.../Soubor.tex", 0),`, seřazené abecedně podle cesty - tento seznam by měl být vyčerpávající, tj. pokrývat úplně všechny `.tex` soubory v `songs/`, které nejsou aktivní.
 * Pokud chcete píseň z konkrétního zpěvníku jen dočasně vyřadit (ne smazat), přesuňte její řádek z aktivního seznamu do zakomentovaného, nemažte soubor.
 * Skutečné smazání písně (soubor už nikde nemá být, ani v komentářích) = smazat `.tex` soubor a zároveň smazat jeho řádek úplně (nepřidávat do zakomentovaného seznamu).
